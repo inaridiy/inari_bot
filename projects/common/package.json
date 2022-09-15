@@ -1,0 +1,12 @@
+{
+  "name": "@inaribot/common",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "contract": "typechain --target ethers-v5 --out-dir src/libs/contract src/assets/abi/*.json"
+  },
+  "devDependencies": {
+    "@typechain/ethers-v5": "^10.1.0",
+    "typechain": "^8.1.0"
+  }
+}
